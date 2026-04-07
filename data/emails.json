@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Congratulations! You won $1000. Click here now!",
+    "label": "spam"
+  },
+  {
+    "text": "Your bank account is suspended. Verify immediately.",
+    "label": "phishing"
+  },
+  {
+    "text": "Meeting scheduled at 10 AM tomorrow.",
+    "label": "safe"
+  }
+]
