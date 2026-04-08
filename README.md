@@ -141,4 +141,4 @@ baseline/   → Agent execution script
 ---
 screenshot of the demo :
  mentioned below
-  ![alt text](image.png)
+  https://github.com/ASHWITHAREDDY510/phishnet-openenv/blob/main/demo.png
