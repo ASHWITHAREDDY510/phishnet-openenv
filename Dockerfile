@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install --upgrade pip
 
-CMD ["python", "-m", "baseline.run_env"]
+CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]
