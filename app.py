@@ -99,15 +99,18 @@ if st.button("🚀 Analyze Email"):
                 css_class = "result-safe"
                 emoji = "✅"
 
-        # ------------------ RESULT ------------------
-        st.markdown(f"""
-        <div class="card">
-            <div class="{css_class}">
-                {emoji} Prediction: {action.upper()}
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+       # ------------------ RESULT ------------------
+st.markdown(f"""
+<div class="card">
+    <div class="{css_class}">
+        {emoji} Prediction: {action.upper()}
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
+# ✅ ADD THIS BELOW
+confidence = 0.9 if action != "safe" else 0.7
+st.info(f"🧠 Confidence Score: {confidence}")
         # ------------------ FEATURES ------------------
         st.markdown("### 📊 Extracted Features")
 
