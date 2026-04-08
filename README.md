@@ -7,6 +7,7 @@ sdk: docker
 app_file: baseline/run_env.py
 pinned: false
 ---
+A real-world OpenEnv environment for training AI agents in cybersecurity email threat detection.
 An OpenEnv-compatible environment for training and evaluating AI agents on **real-world email threat detection tasks** such as spam and phishing classification.
 ---
 ## 🧠 Overview
@@ -138,3 +139,6 @@ baseline/   → Agent execution script
 * ✅ Designed for benchmarking AI systems
 * ✅ Fully deployed and reproducible
 ---
+screenshot of the demo :
+ mentioned below
+  ![alt text](image.png)
