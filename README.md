@@ -1,9 +1,14 @@
-# 🚀 PhishNet OpenEnv
-
-An OpenEnv-compatible environment for training and evaluating AI agents on **real-world email threat detection tasks** such as spam and phishing classification.
-
 ---
-
+title: PhishNet OpenEnv
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: baseline/run_env.py
+pinned: false
+---
+An OpenEnv-compatible environment for training and evaluating AI agents on **real-world email threat detection tasks** such as spam and phishing classification.
+---
 ## 🧠 Overview
 
 PhishNet simulates an intelligent email security system where an AI agent interacts with an environment to classify emails as:
@@ -132,5 +137,4 @@ baseline/   → Agent execution script
 * ✅ Multi-step agent interaction
 * ✅ Designed for benchmarking AI systems
 * ✅ Fully deployed and reproducible
-
 ---
