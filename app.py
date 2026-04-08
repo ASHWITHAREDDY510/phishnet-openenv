@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath("."))
 
 import streamlit as st
 from env.environment import PhishNetEnv
-
+print("App started successfully")
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
     page_title="PhishNet AI",
