@@ -35,7 +35,7 @@ The environment provides structured observations, multi-step episodes, and rewar
 * 🎯 **Reward shaping** with partial credit
 * 🧠 **Structured observation space** (features, not just raw text)
 * 🐳 **Dockerized & deployed on Hugging Face Spaces**
-
+* Uses realistic email patterns inspired by real-world phishing datasets
 ---
 
 ## ⚙️ Environment Design
