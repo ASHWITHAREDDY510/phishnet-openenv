@@ -1,6 +1,5 @@
 import sys
 import os
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from env.environment import PhishNetEnv
 
@@ -28,3 +27,7 @@ while not done:
     print("Reward:", reward)
     print("Correct:", info["correct_label"])
     print("Step:", info["step_count"])
+    import time
+
+while True:
+    time.sleep(60)
